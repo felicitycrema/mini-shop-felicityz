@@ -1,0 +1,154 @@
+.navbar {
+    height: 64px;
+    /* background-color: #ccc; */
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 12px;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.container {
+    margin-top: auto;
+}
+
+.cart-page {
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff532b;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+td {
+    padding: 5px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex- end;
+}
+
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 370px;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+th:last-child {
+    text-align: center;
+}
+
+th:first-child {
+    text-align: center;
+}
+
+.totals tr {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5px;
+    flex-direction: column;
+    font-weight: normal;
+    border: none;
+    color: #fff;
+    background: #ff523b;
+    font-size: 2rem;
+}
+
+.totals th {
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.change {
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+th>input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.add-product-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.add-product-form input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.add-product-form button {
+    padding: 5px 10px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-product-form button:hover {
+    background-color: #8caf4c;
+}
